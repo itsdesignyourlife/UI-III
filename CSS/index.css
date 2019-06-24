@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
+  align-content: center;
+}
+.header .logo {
+  width: 6%;
+  height: 6%;
+  align-self: center;
+}
+.header .navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: center;
+  font-size: 1.5rem;
+  padding-top: 1.8rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: #0094FF;
+  align-self: flex-end;
+}
+.navbar a:hover {
+  color: #66ff3f;
+}
+.header .log {
+  background-color: #66ff3f;
+  width: 5rem;
+  height: 2.4rem;
+  align-self: flex-end;
+  border-radius: 1rem;
+  border: none;
+  color: #0094ff;
+  font-size: 1.2rem;
+}
+.log:hover {
+  background-color: #0094FF;
+  color: #66ff3f;
+}
+html body {
+  font-size: 62.5%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: center;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.intro h1 {
+  font-size: 3.6rem;
+  align-self: center;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+.intro .app {
+  width: 20%;
+  align-self: center;
+  padding: 2rem;
+}
+.intro h2 {
+  display: flex;
+  align-self: center;
+  font-size: 1.8rem;
+  margin: 0;
+}
+.intro h3 {
+  align-self: center;
+  font-size: 0.9rem;
+  display: flex;
+}
+.reviews {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  height: 50rem;
+  width: 100%;
+  align-items: center;
+  background-image: linear-gradient(to top, silver, white);
+}
+.reviews h3 {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+}
+.reviews p {
+  font-size: 0.8rem;
+  justify-content: center;
+  display: flex;
+}
+.features .feature {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.features img {
+  width: 50%;
+}
+.features h2 {
+  font-size: 1.5rem;
+  align-self: center;
+}
+.features p {
+  font-size: 1rem;
+}
+.features div {
+  display: flex;
+  flex-direction: column;
+}
