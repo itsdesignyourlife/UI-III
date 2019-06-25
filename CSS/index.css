@@ -6,8 +6,8 @@
   align-content: center;
 }
 .header .logo {
-  width: 6%;
-  height: 6%;
+  width: 8%;
+  height: 8%;
   align-self: center;
 }
 .header .navbar {
@@ -43,8 +43,7 @@
 html body {
   font-size: 62.5%;
   max-width: 1024px;
-  display: flex;
-  justify-content: center;
+  margin: auto;
 }
 .intro {
   display: flex;
@@ -74,7 +73,7 @@ html body {
   display: flex;
 }
 .reviews {
-  padding: 2rem;
+  margin: 8rem 0;
   display: flex;
   justify-content: center;
   height: 50rem;
@@ -85,29 +84,48 @@ html body {
 .reviews h3 {
   font-size: 1.8rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .reviews p {
   font-size: 0.8rem;
   justify-content: center;
   display: flex;
 }
+.topnav {
+  text-decoration: none;
+  font-size: 1rem;
+  padding-top: 1rem;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+}
 .features .feature {
   display: flex;
-  align-items: center;
-  padding: 1rem;
+  padding: 3rem 0;
+  width: 100%;
 }
 .features img {
-  width: 50%;
+  width: 38rem;
+  height: 18rem;
 }
 .features h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   align-self: center;
 }
 .features p {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 .features div {
   display: flex;
   flex-direction: column;
+  padding-right: 5rem;
+  align-self: center;
+}
+html body {
+  font-size: 62.5%;
+  max-width: 1024px;
+  margin: auto;
+}
+.team img {
+  border-radius: 100rem;
 }
