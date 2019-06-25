@@ -129,13 +129,17 @@ html body {
 .teams {
   margin-top: 10rem;
   margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .teams img {
   border-radius: 40%;
-}
-.teams div {
-  display: flex;
-  flex-direction: column;
+  width: 7rem;
+  height: 7rem;
+  align-self: center;
+  position: relative;
+  overflow: hidden;
 }
 .teams h1 {
   align-self: center;
@@ -144,50 +148,6 @@ html body {
 }
 .teams h2 {
   align-self: center;
-}
-.team1 {
-  width: 10rem;
-  height: 10rem;
-  align-self: center;
-}
-.team2 {
-  width: 13rem;
-  height: 10rem;
-  align-self: center;
-}
-.team3 {
-  width: 10rem;
-  height: 10rem;
-  align-self: center;
-}
-.team4 {
-  width: 12rem;
-  height: 10rem;
-  align-self: center;
-}
-.team5 {
-  width: 12rem;
-  height: 10rem;
-  align-self: center;
-}
-.teams .heading {
-  font-size: 3rem;
-  color: #0094FF;
-  justify-content: center;
-  display: flex;
-  margin: 8rem;
-}
-#team2 {
-  display: none;
-}
-#team3 {
-  display: none;
-}
-#team4 {
-  display: none;
-}
-#team5 {
-  display: none;
 }
 footer {
   display: flex;
