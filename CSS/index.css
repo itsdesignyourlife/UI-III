@@ -89,6 +89,13 @@ html body {
   font-size: 0.9rem;
   display: flex;
 }
+.heading2 {
+  font-size: 4rem;
+  color: #66ff3f;
+  text-decoration: underline #0094ff;
+  display: flex;
+  justify-content: center;
+}
 .reviews {
   margin: 8rem 0;
   display: flex;
@@ -192,4 +199,16 @@ footer {
   display: flex;
   justify-content: center;
   font-size: 1rem;
+}
+.nav2 {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.nav2 a {
+  color: #0094ff;
+  text-decoration: none;
+}
+.nav2 a:hover {
+  color: #66ff3f;
 }
