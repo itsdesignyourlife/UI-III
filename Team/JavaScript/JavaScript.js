@@ -13,6 +13,7 @@ selectElement(){
         const imgs = document.querySelectorAll(".team")
         imgs.forEach(img => img.style.display = "none")
         this.team.forEach(img => img.selectImg())
+        this.team.classList.toggle('teams')
     }
 }
 

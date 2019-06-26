@@ -13,7 +13,7 @@
 .header .navbar {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: center;
   font-size: 1.5rem;
   padding-top: 1.8rem;
@@ -29,7 +29,7 @@
 .header .log {
   background-color: #66ff3f;
   width: 5rem;
-  height: 2.4rem;
+  height: 2.5rem;
   align-self: flex-end;
   border-radius: 1rem;
   border: none;
@@ -50,16 +50,33 @@ html body {
   justify-content: center;
   flex-direction: column;
 }
+.head {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  border: solid 1px blue;
+}
 .intro h1 {
+  width: 100%;
   font-size: 3.6rem;
-  align-self: center;
+  line-height: 3.6 rem;
+  border: 1px solid red;
   margin-top: 2rem;
   margin-bottom: 0.8rem;
 }
+.intro .appstore {
+  width: 8%;
+  height: 8%;
+  line-height: 3.6rem;
+  justify-content: center;
+  display: block;
+  border: solid 1px green;
+}
 .intro .app {
-  width: 20%;
+  width: 45%;
   align-self: center;
-  padding: 2rem;
+  padding: 2rem 0rem 3rem 0rem;
 }
 .intro h2 {
   display: flex;
@@ -101,8 +118,10 @@ html body {
 }
 .features .feature {
   display: flex;
+  border-bottom: groove 5px #0094FF;
   padding: 3rem 0;
   width: 100%;
+  background-color: #66ff3f;
 }
 .features img {
   width: 38rem;
@@ -149,6 +168,26 @@ html body {
 .teams h2 {
   align-self: center;
 }
+.Cbutton {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+button {
+  height: 2rem;
+  background-color: #0094FF;
+  border-radius: 1rem;
+  border: none;
+  color: #66ff3f;
+}
+button:hover {
+  background-color: #66ff3f;
+  color: #0094FF;
+}
+/*.team {
+    display: none;
+}
+*/
 footer {
   display: flex;
   justify-content: center;
