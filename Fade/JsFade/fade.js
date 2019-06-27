@@ -6,6 +6,7 @@ class Section {
         this.tab = people.dataset.tab;
         this.person = document.querySelector(`.about[data-about='${this.tab}']`);
         this.element.addEventListener('click',() => this.show());
+        //this.person = Array.from(this.person).map(card => new TabCard(card));
         console.log(people)
     }   
 
