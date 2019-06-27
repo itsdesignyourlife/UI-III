@@ -47,31 +47,34 @@ html body {
 }
 .intro {
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 .head {
+  height: 3.6rem;
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   width: 100%;
-  flex-direction: row;
-  justify-content: center;
-  border: solid 1px blue;
 }
-.intro h1 {
-  width: 100%;
+.head-title {
+  text-align: center;
+  width: 85%;
+  height: 3.6rem;
+}
+.head-title h1 {
+  display: inline;
   font-size: 3.6rem;
-  line-height: 3.6 rem;
-  border: 1px solid red;
-  margin-top: 2rem;
-  margin-bottom: 0.8rem;
+  align-self: center;
 }
-.intro .appstore {
-  width: 8%;
-  height: 8%;
-  line-height: 3.6rem;
-  justify-content: center;
-  display: block;
-  border: solid 1px green;
+.head-image {
+  align-self: center;
+  height: 2rem;
+  width: 6%;
+  padding: 1rem;
+}
+.appstore {
+  height: 100%;
+  width: 100%;
 }
 .intro .app {
   width: 45%;
@@ -191,10 +194,17 @@ button:hover {
   background-color: #66ff3f;
   color: #0094FF;
 }
-/*.team {
-    display: none;
+.link a {
+  text-decoration: none;
+  color: #0094FF;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
 }
-*/
+.link a:hover {
+  color: #66ff3f;
+}
 footer {
   display: flex;
   justify-content: center;
