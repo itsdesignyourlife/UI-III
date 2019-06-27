@@ -5,10 +5,23 @@
   flex-direction: column-reverse;
   align-content: center;
 }
+@media (max-width: 500px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+}
 .header .logo {
   width: 8%;
   height: 8%;
   align-self: center;
+}
+@media (max-width: 500px) {
+  .header .logo {
+    width: 8rem;
+    background-color: blue;
+  }
 }
 .header .navbar {
   display: flex;
@@ -45,12 +58,16 @@ html body {
   max-width: 1024px;
   margin: auto;
 }
+@media (min-width: 800px) {
+  margin: auto;
+  max-width: 1024px;
+}
 .intro {
   display: flex;
   flex-direction: column;
 }
 .head {
-  height: 3.6rem;
+  height: 3rem;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
@@ -59,12 +76,17 @@ html body {
 .head-title {
   text-align: center;
   width: 85%;
-  height: 3.6rem;
+  height: 3rem;
 }
 .head-title h1 {
-  display: inline;
-  font-size: 3.6rem;
+  font-size: 3rem;
   align-self: center;
+  margin-top: 1rem;
+}
+@media (max-width: 500px) {
+  .head-title h1 {
+    font-size: 2.5rem;
+  }
 }
 .head-image {
   align-self: center;
@@ -74,18 +96,38 @@ html body {
 }
 .appstore {
   height: 100%;
-  width: 100%;
+  padding: 0.5rem;
+}
+@media (max-width: 500px) {
+  .appstore {
+    display: none;
+    padding: 0;
+  }
 }
 .intro .app {
   width: 45%;
   align-self: center;
   padding: 2rem 0rem 3rem 0rem;
 }
+@media (max-width: 500px) {
+  .intro .app {
+    width: 100%;
+    padding: 0;
+  }
+}
 .intro h2 {
   display: flex;
   align-self: center;
   font-size: 1.8rem;
   margin: 0;
+}
+.intro h2 br {
+  display: none;
+}
+@media (max-width: 500px) {
+  .intro h2 br {
+    display: block;
+  }
 }
 .intro h3 {
   align-self: center;
@@ -107,6 +149,11 @@ html body {
   width: 100%;
   align-items: center;
   background-image: linear-gradient(to top, silver, white);
+}
+@media (max-width: 500px) {
+  .reviews {
+    margin: 2rem 0;
+  }
 }
 .reviews h3 {
   font-size: 1.8rem;
@@ -133,6 +180,15 @@ html body {
   width: 100%;
   background-color: #66ff3f;
 }
+@media (max-width: 500px) {
+  .features .feature {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+    border-bottom: groove 5px #66ff3f;
+    background-color: #0094FF;
+  }
+}
 .features img {
   width: 38rem;
   height: 18rem;
@@ -144,6 +200,11 @@ html body {
 .features p {
   font-size: 1.3rem;
 }
+@media (max-width: 500px) {
+  .features .feature p {
+    text-align: center;
+  }
+}
 .features div {
   display: flex;
   flex-direction: column;
@@ -154,6 +215,10 @@ html body {
   font-size: 62.5%;
   max-width: 1024px;
   margin: auto;
+}
+@media (min-width: 800px) {
+  margin: auto;
+  max-width: 1024px;
 }
 .teams {
   margin-top: 10rem;
@@ -237,6 +302,11 @@ footer {
   height: 32rem;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .abouts {
+    height: 36rem;
+  }
+}
 .abouts .active img {
   display: flex;
   margin: auto;
@@ -293,6 +363,11 @@ footer {
   padding: 2rem;
   margin: auto;
   background-color: lightskyblue;
+}
+@media (max-width: 500px) {
+  .about-control {
+    padding: 0;
+  }
 }
 .tab {
   cursor: pointer;

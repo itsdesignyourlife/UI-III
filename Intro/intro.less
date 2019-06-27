@@ -4,7 +4,7 @@
 }
 
 .head {
-    height: 3.6rem;
+    height: 3rem;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;    
@@ -14,13 +14,21 @@
 .head-title {    
     text-align: center;
     width: 85%;
-    height: 3.6rem;    
+    height: 3rem;    
 }
 
 .head-title h1 {
-    display: inline;
-    font-size: 3.6rem;
+    
+    font-size: 3rem;
     align-self: center;
+    margin-top: 1rem;
+}
+
+@media (max-width: 500px) {
+    .head-title h1 {
+        font-size: 2.5rem;
+        
+    }
 }
 
 .head-image {
@@ -32,13 +40,27 @@
 
 .appstore {
     height: 100%;
-    width: 100%;  
+    padding: .5rem;  
+}
+
+@media (max-width: 500px) {
+    .appstore {
+        display: none;
+        padding: 0;
+    }
 }
 
 .intro .app {
     width: 45%;
     align-self: center;
     padding: 2rem 0rem 3rem 0rem;    
+}
+
+@media (max-width: 500px) {
+    .intro .app {
+        width: 100%;
+        padding: 0;
+    }
 }
 
 .intro h2 {
@@ -48,6 +70,15 @@
     margin: 0;
 }
 
+.intro h2 br {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .intro h2 br {
+        display: block;
+    }
+} 
 .intro h3 {
     align-self: center;
     font-size: .9rem;

@@ -2,9 +2,18 @@
     display: flex;
     border-bottom: groove 5px #0094FF;
     padding: 3rem 0;
-    width: 100%;
-    
+    width: 100%;    
     background-color: #66ff3f;
+}
+
+@media (max-width: 500px) {
+    .features .feature {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 0;
+        border-bottom: groove 5px #66ff3f;
+        background-color: #0094FF
+    }
 }
 
 .features img {
@@ -18,9 +27,15 @@
     align-self: center;
 }
 
-.features p {
+.features  p {
     font-size: 1.3rem;
     
+}
+
+@media (max-width: 500px) {
+    .features .feature p {
+        text-align: center;
+    }
 }
 
 .features div {
@@ -30,3 +45,4 @@
     align-self: center;
 
 }
+

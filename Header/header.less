@@ -6,10 +6,25 @@
     align-content: center;
 }
 
+@media (max-width: 500px) {
+    .header {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    }
+}
+
 .header .logo {
     width: 8%;
     height: 8%;
     align-self: center;
+}
+
+@media (max-width: 500px) {
+    .header .logo {
+    width: 8rem;
+    background-color: blue;
+    }
 }
 
 .header .navbar {
