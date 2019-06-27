@@ -42,7 +42,7 @@ class About {
     }
 
     setInterval() {
-        setInterval(count, 5000, this.tab)
+        setInterval(count, 3000, this.tab)
     }
 }
 

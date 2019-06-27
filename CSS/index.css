@@ -212,23 +212,63 @@ footer {
 .nav2 a:hover {
   color: #66ff3f;
 }
-.abouts {
-  max-width: 1024px;
-}
-.about img {
-  width: 16rem;
-  height: 16rem;
+.heading2 {
+  font-size: 2.8rem;
+  color: #66ff3f;
+  text-decoration: underline #0094ff;
   display: flex;
   justify-content: center;
 }
+.abouts {
+  max-width: 1024px;
+  display: flex;
+  justify-content: center;
+  background-color: #66ff3f;
+  height: 32rem;
+  align-items: center;
+}
+.abouts .active img {
+  display: flex;
+  margin: auto;
+}
+.shaun {
+  width: 20rem;
+  height: 20rem;
+}
+.dora {
+  width: 20rem;
+  height: 15rem;
+}
+.vlad {
+  width: 18rem;
+  height: 15rem;
+}
+.chris {
+  width: 19rem;
+  height: 15rem;
+}
+.adam {
+  width: 21rem;
+  height: 18rem;
+}
 .about h1 {
-  font-size: 3rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 .about p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .about a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  color: #69313b;
+}
+.about a:hover {
+  color: black;
 }
 .abouts .about {
   display: none;
@@ -239,12 +279,18 @@ footer {
 .about-control {
   display: flex;
   justify-content: space-around;
-  max-width: 60rem;
+  max-width: 40rem;
+  padding: 2rem;
+  margin: auto;
+  background-color: lightskyblue;
 }
 .tab {
   cursor: pointer;
-  background-color: blue;
+  background-color: #0094FF;
   height: 15px;
   width: 15px;
   border-radius: 50%;
+}
+.tab:hover {
+  background-color: #66ff3f;
 }
